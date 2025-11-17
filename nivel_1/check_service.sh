@@ -10,7 +10,7 @@
 # -----------------------------------------------------------
 
 # Ruta al archivo .env
-ENV_PATH="$(dirname "$0")/.env"
+ENV_PATH="/home/Adrian/devops/practicaI/DevOps---Practica-Bash-Scripting/.env"
 
 # Carga variables del .env
 if [ -f "$ENV_PATH" ]; then
